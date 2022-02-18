@@ -1,0 +1,17 @@
+.header__logo {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+
+  font-family: var(--logo-font-family);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--accent-color);
+}
+.header__logo--black {
+  color: var(--header-logo-color);
+  font-family: var(--logo-font-family);
+}
