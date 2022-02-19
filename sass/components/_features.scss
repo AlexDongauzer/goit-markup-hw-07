@@ -7,8 +7,8 @@
 .features-list__item {
   margin-bottom: 30px;
 }
-.features-list__item + .features-list__item {
-  margin-left: 30px;
+.features-list__item:not(:last-child) {
+  margin-right: 30px;
 }
 .features-list__background {
   margin-bottom: 30px;
