@@ -9,10 +9,11 @@
   justify-content: space-between;
 }
 .clients-list__item {
-  flex-basis: (100% / 6 -var(--margin-item-stand));
-}
-.clients-list__item + .clients-list__item {
-  margin-left: 30px;
+  flex-basis: calc(100% / 6 - var(--margin-item-stand));
+
+  & + & {
+    margin-left: var(--margin-item-stand);
+  }
 }
 .clients-list__link {
   display: flex;
