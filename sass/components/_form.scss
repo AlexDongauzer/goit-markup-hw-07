@@ -65,3 +65,15 @@
     border: 1px solid var(--accent-color);
   }
 }
+.form__button {
+  @extend %button;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+
+  &:hover,
+  &:focus {
+    background-color: var(--secondary-accent-color);
+  }
+}

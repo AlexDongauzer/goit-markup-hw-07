@@ -2,12 +2,9 @@
   background-color: var(--our-team-bcg-color);
 }
 .team__title {
-  margin-bottom: 50px;
-  text-align: center;
-
-  font-size: 36px;
-  line-height: 1.16;
+  @extend %title;
 }
+
 .team-list {
   display: flex;
 }

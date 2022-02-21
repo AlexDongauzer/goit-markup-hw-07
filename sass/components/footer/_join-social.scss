@@ -17,14 +17,10 @@
   margin-left: 10px;
 }
 .join-social-list__link {
+  @extend %general-social;
   background-color: var(--bg-footer-social-link);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
   transition: background-color var(--duration) var(--timing-function);
+
   &:hover,
   &:focus {
     background-color: var(--accent-color);

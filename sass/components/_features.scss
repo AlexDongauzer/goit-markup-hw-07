@@ -11,7 +11,7 @@
   margin-right: 30px;
 }
 .features-list__background {
-  margin-bottom: 30px;
+  margin-bottom: var(--margin-item-stand);
   display: flex;
   align-items: center;
   justify-content: center;
